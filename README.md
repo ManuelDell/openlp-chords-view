@@ -32,7 +32,7 @@ PowerShell öffnen (`Win + X → Windows PowerShell`) und folgendes ausführen:
 
 ```powershell
 # 1. Repository klonen
-git clone https://github.com/YOUR_GITHUB_USERNAME/openlp-chords-view.git
+git clone https://github.com/ManuelDell/openlp-chords-view.git
 
 # 2. Stages-Ordner anlegen (falls nicht vorhanden) und View kopieren
 New-Item -ItemType Directory -Force -Path "$env:APPDATA\openlp\stages"
@@ -52,7 +52,7 @@ Terminal öffnen:
 
 ```bash
 # 1. Repository klonen
-git clone https://github.com/YOUR_GITHUB_USERNAME/openlp-chords-view.git
+git clone https://github.com/ManuelDell/openlp-chords-view.git
 
 # 2. Stages-Ordner anlegen (falls nicht vorhanden) und View kopieren
 mkdir -p ~/.local/share/openlp/stages
